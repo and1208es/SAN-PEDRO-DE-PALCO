@@ -154,6 +154,26 @@ nav {
     border-radius: 10%;
     
 }
+
+/* Start Block title */
+.block-title {
+
+    font-size: 2.44444em;
+    text-align: left;
+}
+.underline {
+    position: relative;
+}
+.underline:after {
+    border-left: 1.5em solid #0072ff;
+    display: block;
+    content: "";
+    height: 2px;
+    margin-top: 0.2em;
+}
+/* End Block title */
+
+
 .textos-header h2 {
     text-align: center;
     font-weight: bold;
