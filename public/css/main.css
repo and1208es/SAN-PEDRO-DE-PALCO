@@ -24,14 +24,16 @@ html {
 	
 }
 
-.icon {
+#rigth_social_bar .icon {
 	color: white;
 	text-decoration: none;
 	padding: .7rem;
 	display: flex;
 	transition: all .5s;
 }
-.fas {
+
+
+#left_social_bar .fas, #rigth_social_bar .fas {
 	color: white;
 	text-decoration: none;
 	padding: .7rem;
@@ -73,12 +75,14 @@ html {
 	border-radius: 0 1rem 1rem 0;
 }
 
-.icon:hover {
+#left_social_bar .icon:hover , #rigth_social_bar  .icon:hover  {
 	padding-right: 3rem;
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
-.fas:hover {
+
+
+#left_social_bar .fas:hover , #rigth_social_bar .fas:hover  {
 	padding-left: 3rem;
 	border-radius: 0 1rem 1rem 0;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);

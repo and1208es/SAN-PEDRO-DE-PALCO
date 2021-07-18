@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <%- include('componentes/head.ejs'); %>
+
+<body>
+    <header>
+
+        <%- include('componentes/navBar.ejs'); %>
+
+        <div id="myCarousel" class="carousel slide margin1" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/1.jpg" alt="" class="img-fluid" viewBox="0 0 118 94" role="img">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/2.jpg" alt="" class="img-fluid" viewBox="0 0 118 94" role="img">
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/3.jpg" alt="" class="img-fluid" viewBox="0 0 118 94" role="img">
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+    <section class="about-us margin2">
+        <div class="contenedor1_2">
+            <div class="contenedor1-articulo1">
+<!--                 <div class="articulo1" data-aos="zoom-in-right">
+                    <a href="obras.html"><img src="./img/obras.svg" alt="">
+                        <h3>OBRAS</h3>
+                    </a>
+                </div> -->
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <a href="emprendimiento.html"><img src="./img/emprendimiento.svg" alt="">
+                        <h3>EMPRENDIMIENTO</h3>
+                    </a>
+                </div>
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <a href="codisec.html"><img src="./img/codisec.svg" alt="">
+                        <h3>CODISEC</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contenedor">
+        <section class="contenido-header">
+            <section class="textos-header">
+                <div class="block-title underline">BIENVENIDOS</div>
+                <p>Les damos la más cordial bienvenida a este espacio digital donde usted podrá encontrar toda la información que necesita sobre nuestra institución.</p>
+                <br>
+                <p><strong> Wilber Barrientos Flores</strong></p>
+                <p></strong>Alcalde</strong></p>
+                <p></strong>Gestión 2019-2022</strong></p>
+                <!-- <a  href="municipalidad.html">Leer más</a> -->
+                <button type="button" class="btn btn-outline-primary">Leer más <i class="fas fa-arrow-right" style="color: #007bff;"></i></button>
+            </section>
+            <img src="img/alcalde.jpg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+        </section>
+    </div>
+    <section class="about-us">
+        <div class="contenedor1">
+            <!-- <h2 class="titulo">NOTICIAS</h2> -->
+
+            <div class="block-title underline">NOTICIAS</div>
+
+            <div class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <img src="./img/noticia1.jpg" alt="">
+                    <h3>Meta 5-PIM</h3>
+                    <p>El ministerio de Vivienda Construcción y saneamiento, a través del centro de atención al
+                        ciudadano CAC- Ayacucho...</p>
+                    <a href="noticia1.html">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <img src="./img/noticia2.jpg" alt="">
+                    <h3>Feliz Aniversario</h3>
+                    <p>La Municipalidad Distrital de San Pedro de Palco,creado por Ley N° 15091del 08 de Julio de 1964
+                        durante el Gobierno de Fernando Belaunde Terry...</p>
+                    <a href="noticia2.html">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <img src="./img/noticia3.jpg" alt="">
+                    <h3>Seguimos trabajando</h3>
+                    <p>El gobierno Local de la Municipalidad distrital de San Pedro de Palco, entrega bienes de ayuda
+                        humanitaria a nivel distrital...</p>
+                    <a href="noticia3.html">Leer más</a>
+                </div>
+                <!--<div class="articulo" data-aos="zoom-in-right">
+                    <img src="./img/noticias.jpg" alt="">
+                    <h3>Noticia 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <img src="./img/noticias.jpg" alt="">
+                    <h3>Noticia 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <img src="./img/noticias.jpg" alt="">
+                    <h3>Noticia 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                    <a href="#">Leer más</a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <section class="questions contenedor">
+        <section class="textos-questions">
+            <h1>Agenda Cultural</h1>
+            <p>Talleres, capacitaciones, eventos y más para nuestra poblacion</p>
+            <a href="eventos.html">Ver Evento...</a>
+        </section>
+        <img src="img/evento1.jpg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+    </section>
+
+    <section class="results">
+        <h1>NÚMEROS DE UTILIDAD</h1>
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left">
+                    <img src="./img/hospital.svg" alt="">
+                    <div class="espacio">
+                        <h4>+51 999999999</h4>
+                        <p>PUESTO DE SALUD</p>
+                    </div>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <img src="./img/policeman.svg" alt="">
+                    <div class="espacio">
+                        <h4>+51 999999999</h4>
+                        <p>COMISARIA</p>
+                    </div>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <img src="./img/peru.svg" alt="">
+                    <div class="espacio">
+                        <h4>+51 999999999</h4>
+                        <p>DEFENZA CIVIL</p>
+                    </div>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <img src="./img/silver-whistle.svg" alt="">
+                    <div class="espacio">
+                        <h4>+51 999999999</h4>
+                        <p>SERENAZGO</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <h1>NÚMEROS TRIBUTARIOS</h1>
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left">
+                    <img src="./img/home.svg" alt="">
+                    <div class="espacio">
+                        <h4>+51 999999999</h4>
+                        <p>MUNICIPALIDAD</p>
+                    </div>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <img src="./img/hand.svg" alt="">
+                    <div class="espacio">
+                        <h4>+51 999999999</h4>
+                        <p>CENTRAL TRIBUTARIA</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div id="rigth_social_bar">
+        <div class="social-bar">
+            <a href="https://www.facebook.com/MunicipalidadDistritalDeSanPedroDePalco" class="icon icon-facebook"
+                target="_blank"></a>
+            <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
+            <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+        </div>
+    </div>
+
+
+    <div id="left_social_bar">
+        <div class="social-bar_1">
+            <a href="https://gmail.com" class="fas fa-envelope-open-text" target="_blank"></a>
+        </div>
+    
+    </div>
+
+    <section class="container">
+        <div class="contenedor1">
+            <h1>Áreas temáticas San Pedro De Palco</h1>
+            <div class="contenedor1-articulo">
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <img src="img/turismo.jpeg" alt="" class="item-img">
+                    <div class="item-text">
+                        <a href="">
+                            <h3>Cultura y Turismo</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <img src="img/recursos.jpeg" alt="" class="item-img">
+                    <div class="item-text">
+                        <a href="">
+                            <h3>Recursos Naturales</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <img src="img/agricultura.jpg" alt="" class="item-img">
+                    <div class="item-text">
+                        <a href="">
+                            <h3>Agricultura</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <img src="img/ganaderia.jpg" alt="" class="item-img">
+                    <div class="item-text">
+                        <a href="">
+                            <h3>Ganaderia</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <img src="img/desarrollo.jpg" alt="" class="item-img">
+                    <div class="item-text">
+                        <a href="#">
+                            <h3>Desarrollo Humano</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="articulo1" data-aos="zoom-in-right">
+                    <img src="img/deportes.jpg" alt="" class="item-img">
+                    <div class="item-text">
+                        <a href="">
+                            <h3>Deportes</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us_nuevo">
+        <div class="contenedor1 services">
+            <div>
+                <h1>ANUNCIOS DE TRANSPARENCIA</h1>
+                <img src="img/logo-portal-transparencia.png" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+            </div>
+            <div class="box-skills">
+                <a href="convocatorias.html">
+                    <h4><i class="far fa-check-circle"></i> CONVOCATORIAS</h4>
+                </a>
+                <a href="resolucion_municipal.html">
+                    <h4><i class="far fa-check-circle"></i> RESOLUCIONES DE ALCALDIA</h4>
+                </a>
+                <a href="#">
+                    <h4><i class="far fa-check-circle"></i> ADQUISICIONES Y CONTRATACIONES</h4>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <%- include('componentes/footer.ejs'); %>
+
+    <%- include('componentes/script.ejs'); %>
+
+
+
+</body>
+
+</html>

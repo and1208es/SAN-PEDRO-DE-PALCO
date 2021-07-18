@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Place somewhere in the <head> of your document -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./lib/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/font1.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -20,9 +20,9 @@
     <script src="./js/jquery.flexslider.js"></script>
     <!-- Bootstrap core CSS -->
 
-    <link rel="stylesheet" href="./css/carousel.css">
-    <link rel="stylesheet" href="./css/carousel.rtl.css">
+    <link rel="stylesheet" href="./lib/carousel.css">
 
+    
     <!-- Custom styles for this template -->
 
 
@@ -104,11 +104,11 @@
     <section class="about-us margin2">
         <div class="contenedor1_2">
             <div class="contenedor1-articulo1">
-                <div class="articulo1" data-aos="zoom-in-right">
+<!--                 <div class="articulo1" data-aos="zoom-in-right">
                     <a href="obras.html"><img src="./img/obras.svg" alt="">
                         <h3>OBRAS</h3>
                     </a>
-                </div>
+                </div> -->
                 <div class="articulo1" data-aos="zoom-in-right">
                     <a href="emprendimiento.html"><img src="./img/emprendimiento.svg" alt="">
                         <h3>EMPRENDIMIENTO</h3>
@@ -125,20 +125,24 @@
     <div class="contenedor">
         <section class="contenido-header">
             <section class="textos-header">
-                <h2>BIENVENIDOS</h2>
-                <h3>Les damos la más cordial bienvenida a este espacio digital donde usted podrá encontrar toda la
-                    información que necesita sobre nuestra institución.</h3>
-                <h3>Ing. Wilber Barrientos Flores</h3>
-                <h3>Alcalde</h3>
-                <h3>Gestión 2019-2022</h3>
-                <a href="municipalidad.html">Leer más</a>
+                <div class="block-title underline">BIENVENIDOS</div>
+                <p>Les damos la más cordial bienvenida a este espacio digital donde usted podrá encontrar toda la información que necesita sobre nuestra institución.</p>
+                <br>
+                <p><strong> Wilber Barrientos Flores</strong></p>
+                <p></strong>Alcalde</strong></p>
+                <p></strong>Gestión 2019-2022</strong></p>
+                <!-- <a  href="municipalidad.html">Leer más</a> -->
+                <button type="button" class="btn btn-outline-primary">Leer más <i class="fas fa-arrow-right" style="color: #007bff;"></i></button>
             </section>
             <img src="img/alcalde.jpg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
         </section>
     </div>
     <section class="about-us">
         <div class="contenedor1">
-            <h2 class="titulo">NOTICIAS</h2>
+            <!-- <h2 class="titulo">NOTICIAS</h2> -->
+
+            <div class="block-title underline">NOTICIAS</div>
+
             <div class="contenedor-articulo">
                 <div class="articulo" data-aos="zoom-in-right">
                     <img src="./img/noticia1.jpg" alt="">
@@ -248,16 +252,23 @@
             </section>
         </div>
     </section>
-    <div class="social-bar">
-        <a href="https://www.facebook.com/MunicipalidadDistritalDeSanPedroDePalco" class="icon icon-facebook"
-            target="_blank"></a>
-        <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
-        <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
-        <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+
+    <div id="rigth_social_bar">
+        <div class="social-bar">
+            <a href="https://www.facebook.com/MunicipalidadDistritalDeSanPedroDePalco" class="icon icon-facebook"
+                target="_blank"></a>
+            <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
+            <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+        </div>
     </div>
 
-    <div class="social-bar_1">
-        <a href="https://gmail.com" class="fas fa-envelope-open-text" target="_blank"></a>
+
+    <div id="left_social_bar">
+        <div class="social-bar_1">
+            <a href="https://gmail.com" class="fas fa-envelope-open-text" target="_blank"></a>
+        </div>
+    
     </div>
 
     <section class="container">
