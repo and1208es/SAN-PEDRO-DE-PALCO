@@ -43,6 +43,7 @@ h1 {
 }
 .contenido-header1 .orgrama{
     height: 500px;
+
 }
 
 /* Header */
@@ -218,7 +219,7 @@ nav {
 }
 
 
-.contenido-header a {
+/* .contenido-header a {
     margin: 28px 0 0 0;
     width: 130px;
     display: inline-block;
@@ -233,7 +234,7 @@ nav {
     border-radius: 5px;
     box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
     margin-left: 280px; 
-}
+} */
 
 .titulo {
     font-size: 50px;
@@ -258,7 +259,7 @@ nav {
     overflow: hidden;
 }
 .articulo1:hover{
-    background: #1FDE82;
+    background: rgb(62, 98, 151);
     transition: 0.5;
 
 }
