@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+    <%- include('componentes/head.ejs'); %>
+
+
+<body>
+    <header>
+
+        <%- include('componentes/navBar.ejs'); %>
+ 
+    </header>
+    <section class="about-us">   
+        <div class="contenedor1_2">
+            <a href="index.html"><h4> <i class="fas fa-long-arrow-alt-left"></i> Volver</h4></a>           
+          <img src="./img/evento1.jpg" alt="" class="evento"> 
+        </div>
+    </section>
+    <section class="about-us1">   
+        <div class="contenedor1_2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>DESCRIPCION</th><th>ARCHIVO</th>
+                    </tr>
+                
+                </thead>
+                <tr>
+                    <td>RENDICION DE CUENTAS 2019-2020 </td><td><a href="./document/REVISTA.pdf" target="_blank" >Ver...</a></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/MunicipalidadDistritalDeSanPedroDePalco" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+      </div>
+
+      <%- include('componentes/footer.ejs'); %>
+
+      <%- include('componentes/script.ejs'); %>
+</body>
+
+</html>
