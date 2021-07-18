@@ -20,7 +20,7 @@ let semaforo = true;
 
 document.querySelectorAll(".hamburguer")[0].addEventListener("click", function(){
     if(semaforo){
-        document.querySelectorAll(".hamburguer")[0].style.color ="#fff";
+        document.querySelectorAll(".hamburguer")[0].style.color ="#000";
         semaforo= false;
     }else{
         document.querySelectorAll(".hamburguer")[0].style.color ="#000";
