@@ -5,3 +5,7 @@ ejs pages/obras.ejs -o public/obras.html
 ejs pages/municipalidad.ejs -o public/municipalidad.html
 ejs pages/organigrama.ejs -o public/organigrama.html
 ejs pages/transparencia.ejs -o public/transparencia.html
+ejs pages/acuerdo_consejo.ejs -o public/acuerdo_consejo.html
+ejs pages/documentos_gestion.ejs -o public/documentos_gestion.html
+ejs pages/ordenanza_municipal.ejs -o public/ordenanza_municipal.html
+ejs pages/resolucion_municipal.ejs -o public/resolucion_municipal.html
