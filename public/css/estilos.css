@@ -183,7 +183,13 @@ nav {
 
 }
 
-.contenido-header>img {
+/* .contenido-header>img {
+    width: 70%;
+    animation: ease-in animat 1.2s;
+    border-radius: 50%; */
+    
+    
+.contenedor .contenido-header .foto_alcalde {
     width: 70%;
     animation: ease-in animat 1.2s;
     border-radius: 50%;
