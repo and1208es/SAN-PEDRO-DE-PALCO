@@ -37,7 +37,14 @@ h6 {
     padding: 60px 0;
 }
 
+/* end footer */
 
+footer p{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+/* footer */
 h1 {
     font-size: 50px;
 }
@@ -580,6 +587,7 @@ nav {
     justify-content: space-evenly;
     margin: auto;
 }
+
 
 .partFooter {
     width: 20%;
