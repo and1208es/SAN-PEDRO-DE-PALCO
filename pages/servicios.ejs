@@ -11,17 +11,15 @@
 
 
         </header>
-        <section class="about-us">
-            <div class="contenedor1_2">
-                <div class="indice">
-                    <a href="index.html">INICIO&nbsp;</a>
-                    <a>/</a>
-                    <a href="#">&nbsp;SERVICIOS</a>
-                </div>
+        <section class="container marketing">
+            <div class="indice">
+                <a href="index.html">INICIO&nbsp;</a>
+                <a>/</a>
+                <a href="#">&nbsp;SERVICIOS</a>
             </div>
         </section>
-        <section class="results_1">
-            <h1>SERVICIOS MUNICIPALES</h1>
+        <section class="container marketing">
+            <div class="block-title underline">UBICACION</div>
             <div class="contenedor1 conten-results">
                 <section class="numbers">
                     <div class="number" data-aos="zoom-in-left">
@@ -108,17 +106,14 @@
                 </section>
             </div>
         </section>
+        <!-- social bar -->
 
-        <div class="social-bar">
-            <a href="https://www.facebook.com/MunicipalidadDistritalDeSanPedroDePalco" class="icon icon-facebook"
-                target="_blank"></a>
-            <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
-            <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
-            <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
-        </div>
-        <%- include('componentes/footer.ejs'); %>
-        
-        <%- include('componentes/script.ejs'); %>
+        <%- include('componentes/social_bar.ejs'); %>
+
+            <!-- end social bar -->
+            <%- include('componentes/footer.ejs'); %>
+
+                <%- include('componentes/script.ejs'); %>
 
     </body>
 
