@@ -11,3 +11,6 @@ ejs pages/ordenanza_municipal.ejs -o public/ordenanza_municipal.html
 ejs pages/resolucion_municipal.ejs -o public/resolucion_municipal.html
 ejs pages/convocatorias.ejs -o public/convocatorias.html
 ejs pages/cas_finalizado.ejs -o public/cas_finalizado.html
+ejs pages/cas_proceso.ejs -o public/cas_proceso.html
+ejs pages/proc_nombramiento.ejs -o public/proc_nombramiento.html
+ejs pages/proceso_seleccion.ejs -o public/proceso_seleccion.html
