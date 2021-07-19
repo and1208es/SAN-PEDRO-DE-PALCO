@@ -14,3 +14,6 @@ ejs pages/cas_finalizado.ejs -o public/cas_finalizado.html
 ejs pages/cas_proceso.ejs -o public/cas_proceso.html
 ejs pages/proc_nombramiento.ejs -o public/proc_nombramiento.html
 ejs pages/proceso_seleccion.ejs -o public/proceso_seleccion.html
+ejs pages/noticia1.ejs -o public/noticia1.html
+ejs pages/noticia2.ejs -o public/noticia2.html
+ejs pages/noticia3.ejs -o public/noticia3.html
