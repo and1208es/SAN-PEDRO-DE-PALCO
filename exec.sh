@@ -9,3 +9,4 @@ ejs pages/acuerdo_consejo.ejs -o public/acuerdo_consejo.html
 ejs pages/documentos_gestion.ejs -o public/documentos_gestion.html
 ejs pages/ordenanza_municipal.ejs -o public/ordenanza_municipal.html
 ejs pages/resolucion_municipal.ejs -o public/resolucion_municipal.html
+ejs pages/convocatorias.ejs -o public/convocatorias.html
