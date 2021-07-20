@@ -17,3 +17,5 @@ ejs pages/proceso_seleccion.ejs -o public/proceso_seleccion.html
 ejs pages/noticia1.ejs -o public/noticia1.html
 ejs pages/noticia2.ejs -o public/noticia2.html
 ejs pages/noticia3.ejs -o public/noticia3.html
+ejs pages/codisec.ejs -o public/codisec.html
+ejs pages/emprendimiento.ejs -o public/emprendimiento.html
