@@ -1,3 +1,4 @@
+echo "compile ejs files"
 ejs pages/index.ejs -o public/index.html
 ejs pages/servicios.ejs -o public/servicios.html
 ejs pages/eventos.ejs -o public/eventos.html
@@ -19,3 +20,4 @@ ejs pages/noticia2.ejs -o public/noticia2.html
 ejs pages/noticia3.ejs -o public/noticia3.html
 ejs pages/codisec.ejs -o public/codisec.html
 ejs pages/emprendimiento.ejs -o public/emprendimiento.html
+echo "compiling done"

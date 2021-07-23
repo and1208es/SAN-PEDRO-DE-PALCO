@@ -11,3 +11,10 @@ browser-sync start --server --files '.'
 
 cd .\Documents\GitHub\SAN-PEDRO-DE-PALCO\
 .\exec.sh
+
+## Install nodemon
+
+```
+npm install -g nodemon
+nodemon --watch pages --watch componentes --exec "./exec.sh"  --verbose --ext ejs
+```
