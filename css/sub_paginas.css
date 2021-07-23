@@ -1,0 +1,14 @@
+.indice{
+    display: flex;
+   
+}
+.indice a{
+    text-decoration: none;
+}
+.orgrama{
+    height: 100%;
+    border-radius: 50%;
+}
+.abajo1{
+    margin-bottom: 110px;
+}
