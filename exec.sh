@@ -1,5 +1,5 @@
 echo "compile ejs files"
-ejs pages/index.ejs -o public/index.html
+ejs pages/index.ejs -o public/index.html title=Inicio
 ejs pages/servicios.ejs -o public/servicios.html
 ejs pages/eventos.ejs -o public/eventos.html
 ejs pages/obras.ejs -o public/obras.html
