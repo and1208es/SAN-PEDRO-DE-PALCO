@@ -57,12 +57,12 @@ h1 {
 header::before {
     content: "";
     display: block;
-    margin-bottom: 80px;
+    margin-bottom: 0;
     
     
 }
 .margin1{
-    margin-top: -50px;
+    margin-top: 0;
     padding-bottom: 0;
 }
 .margin2{
