@@ -1,3 +1,6 @@
+echo "remove files"
+rm public/*.html
+
 echo "compile ejs files"
 ejs pages/index.ejs -o public/index.html title=Inicio
 ejs pages/servicios.ejs -o public/servicios.html
