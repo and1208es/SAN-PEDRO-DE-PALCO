@@ -39,8 +39,8 @@ h6 {
 
 /* end footer */
 
-footer p{
-    font-family: sans-serif;
+footer{
+    font-family: 'Roboto';
     font-size: small;
 }
 
