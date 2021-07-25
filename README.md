@@ -25,3 +25,23 @@ nodemon --watch pages --watch componentes --exec "./exec.sh"  --verbose --ext ej
 npm install gh-pages --save-dev
 gh-pages -d public/
 ```
+
+## Publicar en surge
+
+
+```
+npm install --global surge
+
+
+
+cd .\Documents\GitHub\SAN-PEDRO-DE-PALCO\public\
+surge
+
+  
+
+muni-san-pedro.surge.sh
+
+
+
+```
+
